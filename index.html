@@ -67,12 +67,12 @@
             palpites.textContent += palpiteUsuario + ' '
 
             if (palpiteUsuario === numeroAleatorio){
-                ultimoResultado.textContent = 'Parabens! Vc acertou!'
+                ultimoResultado.textContent = 'Parabens! Vc acertou! Vamos para soveteria'
                 ultimoResultado.style.backgroundColor = 'green'
                 baixoOuAlto.textContent = ' '
                 configFimDeJogo()
             }else if(contagemPalpites === 10){
-                ultimoResultado.textContent = 'vc é muito burro e perdeu'
+                ultimoResultado.textContent = 'Vcs perderam e não vão para sorveteria.'
                 baixoOuAlto.textContent = ' '
                 configFimDeJogo()
             } else {
